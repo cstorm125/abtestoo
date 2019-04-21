@@ -1,8 +1,6 @@
 # abtest
 A/B testing from scratch
 
-This is a collection of best practices in A/B testing. 
-
 ## Frequentist Approach
 
 See interactive notebook `frequentist.ipynb`
