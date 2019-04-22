@@ -10,5 +10,10 @@ Frequentist A/B testing is one of the most used and abused statistical methods i
 ## Scripts
 `stat_tests.py` - scripts containing some useful statistical functions
 
+## Resources
+* [N=10^9: Automated Experimentation at Scale](https://www.slideshare.net/optimizely/opti-con-2014-automated-experimentation-at-scale)
+* [Big experiments: Big data’s friend for making decisions](https://www.facebook.com/notes/facebook-data-science/big-experiments-big-datas-friend-for-making-decisions/10152160441298859/)
+* [Designing and Deploying Online Field Experiments](https://research.fb.com/publications/designing-and-deploying-online-field-experiments/)
+
 ## Thanks
 * [korakot](https://github.com/korakot) for notebook conversion to run in Colab
