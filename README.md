@@ -1,5 +1,5 @@
-# abtest
-A/B testing from scratch
+# abtestoo
+A/B testing and Multi-armed Bandits Made Easy
 
 ## Frequentist Approach
 
@@ -19,8 +19,28 @@ See interactive notebook `mab.ipynb` / [Kaggle Kernel](https://www.kaggle.com/cs
 
 Frequentist and Bayesian A/B tests require you to divide your traffic into arbitrary groups for a period of time, then perform statistical tests based on the results. By definition, this forces us to divert out traffic to suboptimal variations during the test period, resulting in lower overall conversion rates. On the other hand, multi-barmed bandit appraoch (MAB) dynamically adjusts the percentage of traffic shown to each variation according to how they have performed so far during the test, resulting in smaller loss in conversion rates.
 
-## Scripts
-`stat_tests.py` - scripts containing some useful statistical functions
+## Installation
+
+To install for the first time:
+
+```
+git clone https://github.com/cstorm125/abtestoo.git
+cd abtestoo
+pip install . #normal
+pip install -e . #dev
+```
+
+To upgrade:
+```
+cd abtestoo
+git pull
+```
+
+## Dependencies
+* plotnine
+* numpy
+* pandas
+
 
 ## Resources
 * [N=10^9: Automated Experimentation at Scale](https://www.slideshare.net/optimizely/opti-con-2014-automated-experimentation-at-scale)
