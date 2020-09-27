@@ -2,10 +2,13 @@ import numpy as np
 import pandas as pd
 from typing import Collection
 
-__all__ = ['gen_proprotions_campaign']
+__all__ = ['gen_bernoulli_campaign']
 
 
-def gen_proprotions_campaign(p1: float, p2: float, lmh: Collection = [500, 1000, 1500], timesteps: int = 60, scaler: float = 300, seed: int = 1412) -> pd.DataFrame:
+def gen_bernoulli_campaign(p1: float, p2: float,
+                           lmh: Collection = [500, 1000, 1500],
+                           timesteps: int = 60,
+                           scaler: float = 300, seed: int = 1412) -> pd.DataFrame:
     '''
     :meth: generate fake impression-conversion campaign based on specified parameters
     :param float p1: true conversion rate of group 1

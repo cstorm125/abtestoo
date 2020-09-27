@@ -13,11 +13,13 @@ __all__ = [
 ]
 
 
-def proportion_samples(mde: float, p: float, alpha: float, mode='one_sided') -> float:
+def proportion_samples(mde: float, p: float, m: float = 1,
+                       alpha: float = 0.05, mode: str = 'one_sided') -> float:
     '''
     :meth: get number of required sample based on minimum detectable difference (in absolute terms)
     :param float mde: minimum detectable difference
     :param float p: pooled probability of both groups
+    :param float m: multiplier of number of samples; groups are n and nm
     :param float alpha: alpha
     :param str mode: mode of test; `one_sided` or `two_sided`
     :return: estimated number of samples to get significance
@@ -29,7 +31,7 @@ def proportion_samples(mde: float, p: float, alpha: float, mode='one_sided') -> 
         z = sp.stats.norm.ppf(1 - alpha)
     else:
         raise ValueError('Available modes are `one_sided` and `two_sided`')
-    return 2 * variance * (z / mde)**2
+    return (m + 1 / m) * variance * (z / mde)**2
 
 
 def proportion_test(c1: int, c2: int,
