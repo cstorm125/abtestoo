@@ -6,15 +6,15 @@
 
 * [ ] Assuming that the null hypothesis is true, what is the probability of observing the current data.
 
-* [ ] Given the observed data, what is the probability of the null hypothesis being true.
+* [ ] Based on the observed data, what is the probability of the null hypothesis being true.
 
-* [ ] Given the observed data, what is the probability of the null hypothesis being false.
+* [ ] Based on the observed data, what is the probability of the null hypothesis being false.
 
 * [ ] Assuming that our hypothesis is true, what is the chance that we reject the null hypothesis.
 
-3. If we conduct a frequentist statistical test at 5% significance level repeatedly for 4,000 times, how many times can we expect to have statistically significant results even if variant A and B are exactly the same?
+3. If we conduct a frequentist statistical test at 5% significance level repeatedly for 4,000 times, how many times can we expect to have statistically significant results even if group A and B are exactly the same?
 
-4. Hamster Inc. once again wants to test the conversion rates between package colors of its sunflower seeds; this time it is Red Package vs Gold Package. The Red Package is the existing variant with average conversion rate of 11%. If they think the minimum detectable effect is 1% and want to make a 80/20 control/test split, how many unique users should see each package color before we decide which one performs better? Assume that they are testing at significance level of 15%. Show your work.
+4. Hamster Inc. once again wants to test the conversion rates between package colors of its sunflower seeds; this time it is Red Package vs Gold Package. The Red Package is the existing group with average conversion rate of 11%. If they think the minimum detectable effect is 1% and want to make a 80/20 control/test split, how many unique users should see each package color before we decide which one performs better? Assume that they are testing at significance level of 15%. Show your work.
 
 5. Let us say Hamster Inc. ran the experiment and got the following results. 
 
@@ -25,7 +25,7 @@
 
 5.1 At significance level of 7%, which variation should be chosen to run at 100% traffic? Show your work.
 
-5.2 What are the confidence intervals of conversion rates for Red and Gold? Show your work.
+5.2 What are the confidence intervals at 7% significance of conversion rates for Red and Gold? Show your work.
 
 
 6. Which of the following are true about frequentist A/B tests? (True/False)
@@ -40,7 +40,7 @@
 
 * [ ] If we have too many samples in each group, the validity of the test can be jeopardized.
 
-* [ ] We should always use the variant that has better performance at statistically significant level.
+* [ ] If you have set up the experiment based on desired minimum detectable effect and significance level, statististical significance is the only factor in determining which group is the better one.
 
 * [ ] We can only test difference between two proportions.
 
