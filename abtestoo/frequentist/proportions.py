@@ -31,7 +31,7 @@ def proportion_samples(mde: float, p: float, m: float = 1,
         z = sp.stats.norm.ppf(1 - alpha)
     else:
         raise ValueError('Available modes are `one_sided` and `two_sided`')
-    return (m + 1 / m) * variance * (z / mde)**2
+    return ((m + 1) / m) * variance * (z / mde)**2
 
 
 def proportion_test(c1: int, c2: int,
