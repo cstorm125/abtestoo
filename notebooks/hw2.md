@@ -4,7 +4,7 @@
 
 2. What is p-value? (Choose one or more)
 
-* [ ] Assuming that the null hypothesis is true, what is the probability of observing the current data.
+* [ ] Assuming that the null hypothesis is true, what is the probability of observing the current or more extreme data.
 
 * [ ] Based on the observed data, what is the probability of the null hypothesis being true.
 
