@@ -46,6 +46,9 @@ git pull
 * [N=10^9: Automated Experimentation at Scale](https://www.slideshare.net/optimizely/opti-con-2014-automated-experimentation-at-scale)
 * [Big experiments: Big data’s friend for making decisions](https://www.facebook.com/notes/facebook-data-science/big-experiments-big-datas-friend-for-making-decisions/10152160441298859/)
 * [Designing and Deploying Online Field Experiments](https://research.fb.com/publications/designing-and-deploying-online-field-experiments/)
+* [Derivation of Power Analysis](https://rugg2.github.io/AB%20testing%20-%20a%20simple%20explanation%20of%20what%20power%20analysis%20does.html)
+* [So, You Need a Statistically Significant Sample?](https://multithreaded.stitchfix.com/blog/2015/05/26/significant-sample/)
 
 ## Thanks
 * [korakot](https://github.com/korakot) for notebook conversion to run in Colab
+* [ekapolc](https://github.com/ekapolc) for edit suggestions for inaccuracies in the slides and notebooks
